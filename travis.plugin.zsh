@@ -32,7 +32,7 @@ __trav_get_url() {
 git-trav() {
   if __trav_check_yml; then
     __trav_get_url
-    __open $url
+    __trav_open $url
   else
     echo "No .travis.yml file found."
   fi
