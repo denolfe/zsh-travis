@@ -6,6 +6,7 @@ ZSH plugin to open Travis CI page for the current repo (if it exists).
 
 ```sh
 $ git-trav
+$ git-trav-priv
 ```
 
 ### As a git alias
